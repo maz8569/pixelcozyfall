@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d62c379acc92414f9ad4d1748046ee8, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  dialogue:
+  - The forest is full of lovely places. Where would you like to go?
+  isPlayer: 
+  responses:
+  - responseText: To the Forest Library! Let's dive into the world of literature!
+    dialogueObject: {fileID: 11400000, guid: adce85ddf9206ef489bddd908ee805ec, type: 2}
+    nextLevel: DialogueTestScene
+  - responseText: To the Forest Cafe. Let's have some Pumpkin Spice Latte.
+    dialogueObject: {fileID: 11400000, guid: 8a138925a92c2fb4c99b8c0e6762e1cc, type: 2}
+    nextLevel: DialogueTestScene
+  - responseText: To the Mysterious Forest Glade...
+    dialogueObject: {fileID: 11400000, guid: ad6461be2a76c9e4fa214f9577aadd96, type: 2}
+    nextLevel: DialogueTestScene
+  - responseText: Hmm.. you know, actually it's kind of cold outside.
+    dialogueObject: {fileID: 11400000, guid: e5c2b7ad3165de84c87b97e5a53beaee, type: 2}
+    nextLevel: DialogueTestScene

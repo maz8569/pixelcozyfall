@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d62c379acc92414f9ad4d1748046ee8, type: 3}
-  m_Name: 1.1
+  m_Name: 2.3.3
   m_EditorClassIdentifier: 
   dialogue:
-  - I can teach you, it's not that difficult. What would you like to crochet?
-  isPlayer: 00
+  - What about Forest Cafe?
+  isPlayer: 
   responses:
-  - responseText: A fox plush!
+  - responseText: Oh yeah! I need a Latte!
+    dialogueObject: {fileID: 11400000, guid: 8a138925a92c2fb4c99b8c0e6762e1cc, type: 2}
+    nextLevel: DialogueTestScene
+  - responseText: I don't really like coffee.
     dialogueObject: {fileID: 11400000, guid: 7b5b3d0bcfaaabf48b6ba038ee32e48a, type: 2}
-    nextLevel: DialogueTestScene2
-  - responseText: A long, warm scarf!
-    dialogueObject: {fileID: 11400000, guid: 7b5b3d0bcfaaabf48b6ba038ee32e48a, type: 2}
-    nextLevel: DialogueTestScene2
+    nextLevel: DialogueTestScene

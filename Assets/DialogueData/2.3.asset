@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d62c379acc92414f9ad4d1748046ee8, type: 3}
+  m_Name: 2.3
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Oh... I've never been there...
+  isPlayer: 
+  responses:
+  - responseText: I heard that every autumn the Old Traveler visit the Mysterious
+      Forest Glade. If you find him and sing the Song of the Last Forest Leaf he
+      gives you a special treasure...
+    dialogueObject: {fileID: 11400000, guid: 7b5b3d0bcfaaabf48b6ba038ee32e48a, type: 2}
+    nextLevel: DialogueTestScene
+  - responseText: I heard that there is a beautiful scenery! I would like to make
+      a photo for the Squirrelstagram.
+    dialogueObject: {fileID: 11400000, guid: 7b5b3d0bcfaaabf48b6ba038ee32e48a, type: 2}
+    nextLevel: DialogueTestScene
+  - responseText: Oh, me too... Maybe we should go somewhere else.
+    dialogueObject: {fileID: 11400000, guid: 2c7bcaf10cd3cfc47b68ccc55096956a, type: 2}
+    nextLevel: DialogueTestScene

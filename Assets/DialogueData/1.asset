@@ -16,15 +16,15 @@ MonoBehaviour:
   - Me too! I love reading and crocheting
   isPlayer: 00
   responses:
-  - responseText: I always wanted to leaarn how to crotcher!
+  - responseText: I always wanted to learn how to crochet!
     dialogueObject: {fileID: 11400000, guid: e7cdbfcf180c1ae4796b5c45979c1dfe, type: 2}
     nextLevel: DialogueTestScene
   - responseText: Let's go to the forest library and borrow some new books!
-    dialogueObject: {fileID: 11400000, guid: e7cdbfcf180c1ae4796b5c45979c1dfe, type: 2}
+    dialogueObject: {fileID: 11400000, guid: adce85ddf9206ef489bddd908ee805ec, type: 2}
     nextLevel: DialogueTestScene
-  - responseText: The best way to spend autumn is playing cozy video games!
-    dialogueObject: {fileID: 11400000, guid: e7cdbfcf180c1ae4796b5c45979c1dfe, type: 2}
+  - responseText: The best way to spend autumn is... playing cozy video games!
+    dialogueObject: {fileID: 11400000, guid: 2588f6ceeff06ec47a6b693da3f9428b, type: 2}
     nextLevel: DialogueTestScene
-  - responseText: It seems sooo boring
-    dialogueObject: {fileID: 11400000, guid: e7cdbfcf180c1ae4796b5c45979c1dfe, type: 2}
+  - responseText: It seems soooo boring
+    dialogueObject: {fileID: 11400000, guid: d210b6b9af650614cacd6816879eb788, type: 2}
     nextLevel: DialogueTestScene

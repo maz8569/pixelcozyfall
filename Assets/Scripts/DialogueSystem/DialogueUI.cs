@@ -119,6 +119,7 @@ public class DialogueUI : MonoBehaviour
     {
         GlobalVariables.dialogueIndex += 1;
         GlobalVariables.currentDialogueObject = response.DialogueObject;
+        Debug.Log(response.nextLevel);
         SceneManager.LoadScene(response.nextLevel);
     }
 

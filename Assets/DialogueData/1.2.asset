@@ -10,15 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d62c379acc92414f9ad4d1748046ee8, type: 3}
-  m_Name: 1.1
+  m_Name: 1.2
   m_EditorClassIdentifier: 
   dialogue:
-  - I can teach you, it's not that difficult. What would you like to crochet?
-  isPlayer: 00
+  - What book do you feel like reading today? I think I'll choose a crime novel.
+  isPlayer: 
   responses:
-  - responseText: A fox plush!
+  - responseText: I think I'll take a post-apocalyptic, cozy, fantasy novel with
+      elements of science fiction and romance based on true facts.
     dialogueObject: {fileID: 11400000, guid: 7b5b3d0bcfaaabf48b6ba038ee32e48a, type: 2}
     nextLevel: DialogueTestScene2
-  - responseText: A long, warm scarf!
+  - responseText: Something light... like a game engine development for noobies
     dialogueObject: {fileID: 11400000, guid: 7b5b3d0bcfaaabf48b6ba038ee32e48a, type: 2}
+    nextLevel: DialogueTestScene2
+  - responseText: Hmm.. I don't have my library card with me. Let's go home.
+    dialogueObject: {fileID: 11400000, guid: 4b75f7150391b9d45b2ec02dfd528177, type: 2}
     nextLevel: DialogueTestScene2

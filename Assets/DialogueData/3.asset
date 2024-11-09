@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d62c379acc92414f9ad4d1748046ee8, type: 3}
+  m_Name: 3
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Of course! What kind of dish would you like to prepare?
+  isPlayer: 
+  responses:
+  - responseText: Comforting Roasted Tomato Basil Soup - the recipe has been in my
+      family for generations.
+    dialogueObject: {fileID: 11400000, guid: 75d2a423c479ff04a9a6d325f53f4a8b, type: 2}
+    nextLevel: DialogueTestScene
+  - responseText: Pumpkin Pie - one of the classic autumn baked goods.
+    dialogueObject: {fileID: 11400000, guid: 5f3fd36fcfbdac24f9009a1335dbf102, type: 2}
+    nextLevel: DialogueTestScene
+  - responseText: Cinnamon Rolls - so yummy!
+    dialogueObject: {fileID: 11400000, guid: 152a729bc9ffe0a4fbddc126e12143d7, type: 2}
+    nextLevel: DialogueTestScene
+  - responseText: Oh no.. I forgot that I have lost my cookbook.
+    dialogueObject: {fileID: 11400000, guid: 18a2d936d092f7548ac59a671b9f1923, type: 2}
+    nextLevel: DialogueTestScene

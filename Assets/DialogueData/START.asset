@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d62c379acc92414f9ad4d1748046ee8, type: 3}
-  m_Name: 0
+  m_Name: START
   m_EditorClassIdentifier: 
   dialogue:
-  - Ah, Autumn. I can't imagine a cozier season.
+  - Ah, Autumn... I can't imagine a cozier season.
   isPlayer: 00
   responses:
-  - responseText: Yes. I truly enjoy cozy activities at home during autumn
+  - responseText: Yes... I truly enjoy cozy activities at home during autumn.
     dialogueObject: {fileID: 11400000, guid: 66c0825b5625c204790e6ae11e61ea99, type: 2}
     nextLevel: DialogueTestScene2
   - responseText: The forest looks charming. Let's take a long walk!
     dialogueObject: {fileID: 11400000, guid: 66c0825b5625c204790e6ae11e61ea99, type: 2}
     nextLevel: DialogueTestScene2
-  - responseText: I'd love to try out some new cozy recipes. Wolud yoou like to join?
+  - responseText: I'd love to try out some new cozy recipes. Would you like to join?
     dialogueObject: {fileID: 11400000, guid: 66c0825b5625c204790e6ae11e61ea99, type: 2}
     nextLevel: DialogueTestScene2
-  - responseText: I don't like it at all
+  - responseText: I don't like it at all.
     dialogueObject: {fileID: 11400000, guid: 66c0825b5625c204790e6ae11e61ea99, type: 2}
     nextLevel: DialogueTestScene2
