@@ -1002,7 +1002,6 @@ MonoBehaviour:
   response:
     responseText: 
     dialogueObject: {fileID: 0}
-    nextLevel: 
 --- !u!61 &980336298
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1170,7 +1169,7 @@ MonoBehaviour:
   dialogueBoxPlayer: {fileID: 1531065460}
   textLabelA: {fileID: 965896278}
   textLabelB: {fileID: 2056733739}
-  startDialogue: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
+  testDialogue: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
   responseHandler: {fileID: 0}
 --- !u!114 &993809514
 MonoBehaviour:

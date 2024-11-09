@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5d62c379acc92414f9ad4d1748046ee8, type: 3}
-  m_Name: Test
+  m_Name: END
   m_EditorClassIdentifier: 
   dialogue:
-  - AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-  - BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+  - AAAAAAAAAA
+  isPlayer: 
+  responses: []
