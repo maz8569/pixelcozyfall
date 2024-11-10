@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private DialogueUI dialogueUI;
 
-    private const float moveSpeed = 10f;
+    //private const float moveSpeed = 10f;
 
     public DialogueUI DialogueUI => dialogueUI;
 
@@ -21,9 +21,9 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        //Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-        rb.MovePosition(rb.position + input.normalized * (moveSpeed * Time.fixedDeltaTime));
+        //rb.MovePosition(rb.position + input.normalized * (moveSpeed * Time.fixedDeltaTime));
     
         if (Input.GetKeyDown(KeyCode.E))
         {
