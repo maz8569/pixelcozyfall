@@ -15,6 +15,7 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D body;
     [SerializeField] private BoxCollider2D boxCollider;
     [SerializeField] private const float minMoveDistance = 0.001f;
+    [SerializeField] private bool isAirborne = false;
     const float EXTRA_HEIGHT = .1f;
 
     private PlayerControls inputActions;
@@ -72,12 +73,23 @@ public class CharacterMovement : MonoBehaviour
     {
         if (IsGrounded())
         {
+            if (isAirborne) 
+            { 
+                StartCoroutine(JumpSqueeze(1.4f, 0.8f, 0.05f));
+                isAirborne = false;
+            }
+            if(animator.GetBool("IsFalling")) animator.SetBool("IsFalling", false);
             velocity.y = groundedGravity;
         }
         else
         {
             float previousYVelocity = velocity.y;
             float newGravity = gravity;
+            if (previousYVelocity < 0) 
+            {
+                animator.SetBool("IsJumping", false);
+                animator.SetBool("IsFalling", true);
+            }
             if(previousYVelocity < 0 || movementInput.y <= 0)
             {
                 newGravity *= gravityModifier;
@@ -102,6 +114,9 @@ public class CharacterMovement : MonoBehaviour
         if (IsGrounded() && movementInput.y > 0)
         {
             velocity.y = initialJumpVelocity;
+            animator.SetBool("IsJumping", true);
+            StartCoroutine(JumpSqueeze(0.5f, 1.4f, 0.1f));
+            isAirborne = true;
         }
     }
 
@@ -111,5 +126,26 @@ public class CharacterMovement : MonoBehaviour
         HandleJump();
         velocity.x = movementInput.x * maxSpeed;
         body.velocity = velocity;
+    }
+
+    IEnumerator JumpSqueeze(float xSqueeze, float ySqueeze, float seconds)
+    {
+        Vector3 originalSize = Vector3.one;
+        Vector3 newSize = new Vector3(xSqueeze, ySqueeze, originalSize.z);
+        float t = 0f;
+        while (t <= 1.0)
+        {
+            t += Time.deltaTime / seconds;
+            transform.localScale = Vector3.Lerp(originalSize, newSize, t);
+            yield return null;
+        }
+        t = 0f;
+        while (t <= 1.0)
+        {
+            t += Time.deltaTime / seconds;
+            transform.localScale = Vector3.Lerp(newSize, originalSize, t);
+            yield return null;
+        }
+
     }
 }
