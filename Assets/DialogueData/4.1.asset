@@ -26,5 +26,5 @@ MonoBehaviour:
     dialogueObject: {fileID: 11400000, guid: 152a729bc9ffe0a4fbddc126e12143d7, type: 2}
     nextLevel: DialogueTestScene
   - responseText: No, sorry, but that's not my thing. I'll wait until spring.
-    dialogueObject: {fileID: 11400000, guid: 7b5b3d0bcfaaabf48b6ba038ee32e48a, type: 2}
-    nextLevel: DialogueTestScene
+    dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
+    nextLevel: TestStartScene

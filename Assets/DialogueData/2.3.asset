@@ -19,12 +19,12 @@ MonoBehaviour:
   - responseText: I heard that every autumn the Old Traveler visit the Mysterious
       Forest Glade. If you find him and sing the Song of the Last Forest Leaf he
       gives you a special treasure...
-    dialogueObject: {fileID: 11400000, guid: 7b5b3d0bcfaaabf48b6ba038ee32e48a, type: 2}
-    nextLevel: DialogueTestScene
+    dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
+    nextLevel: TestStartScene
   - responseText: I heard that there is a beautiful scenery! I would like to make
       a photo for the Squirrelstagram.
-    dialogueObject: {fileID: 11400000, guid: 7b5b3d0bcfaaabf48b6ba038ee32e48a, type: 2}
-    nextLevel: DialogueTestScene
+    dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
+    nextLevel: TestStartScene
   - responseText: Oh, me too... Maybe we should go somewhere else.
     dialogueObject: {fileID: 11400000, guid: 2c7bcaf10cd3cfc47b68ccc55096956a, type: 2}
     nextLevel: DialogueTestScene

@@ -17,9 +17,9 @@ MonoBehaviour:
   isPlayer: 
   responses:
   - responseText: 'We will need: pumpkin, milk, eggs, ginger, cinnamon, cloves'
-    dialogueObject: {fileID: 11400000, guid: 7b5b3d0bcfaaabf48b6ba038ee32e48a, type: 2}
-    nextLevel: DialogueTestScene
+    dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
+    nextLevel: TestStartScene
   - responseText: 'We will need: spaghetti pasta, ground beef, tomato paste, Parmesan
       cheese'
-    dialogueObject: {fileID: 11400000, guid: d00fa360935bdb5489804c2c6e89c3f0, type: 2}
+    dialogueObject: {fileID: 11400000, guid: 3b6a2f1a43da7414187a1e623ae404fa, type: 2}
     nextLevel: DialogueTestScene

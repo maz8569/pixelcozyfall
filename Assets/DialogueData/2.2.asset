@@ -18,9 +18,9 @@ MonoBehaviour:
   isPlayer: 
   responses:
   - responseText: ' Inside - The cafe interior is so cozy!'
-    dialogueObject: {fileID: 11400000, guid: 7b5b3d0bcfaaabf48b6ba038ee32e48a, type: 2}
-    nextLevel: DialogueTestScene
+    dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
+    nextLevel: TestStartScene
   - responseText: Outside - I would like to admire the nature during this colorful
       season.
-    dialogueObject: {fileID: 11400000, guid: 7b5b3d0bcfaaabf48b6ba038ee32e48a, type: 2}
-    nextLevel: DialogueTestScene
+    dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
+    nextLevel: TestStartScene

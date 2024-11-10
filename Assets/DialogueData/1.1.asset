@@ -17,8 +17,11 @@ MonoBehaviour:
   isPlayer: 00
   responses:
   - responseText: A fox plush!
-    dialogueObject: {fileID: 11400000, guid: 7b5b3d0bcfaaabf48b6ba038ee32e48a, type: 2}
-    nextLevel: DialogueTestScene2
+    dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
+    nextLevel: TestStartScene
   - responseText: A long, warm scarf!
-    dialogueObject: {fileID: 11400000, guid: 7b5b3d0bcfaaabf48b6ba038ee32e48a, type: 2}
+    dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
+    nextLevel: TestStartScene
+  - responseText: I can't decide... Maybe let's crochet another time.
+    dialogueObject: {fileID: 11400000, guid: c7c959b1cd121374d93df1934c75d19d, type: 2}
     nextLevel: DialogueTestScene2

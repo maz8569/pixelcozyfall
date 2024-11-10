@@ -85,7 +85,7 @@ public class DialogueUI : MonoBehaviour
                 break;
             }
 
-            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
+            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
         }
 
         if (dialogueObject.HasResponses)
@@ -106,7 +106,7 @@ public class DialogueUI : MonoBehaviour
 
         yield return typeWriterEffect.Run(response.ResponseText, textLabel);
 
-        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
 
 
         ChangeLevel(response);
