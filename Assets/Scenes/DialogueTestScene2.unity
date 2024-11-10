@@ -576,6 +576,9 @@ MonoBehaviour:
     responseText: 
     dialogueObject: {fileID: 0}
     nextLevel: 
+    isLast: 0
+    sticker: {fileID: 0}
+    isFailure: 0
 --- !u!61 &317194950
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1343,6 +1346,7 @@ MonoBehaviour:
   responseButtonTemplate: {fileID: 122490057}
   responseContainer: {fileID: 50594913}
   responseObjectTemplate: {fileID: 317194948}
+  responseObjectFailureTemplate: {fileID: 0}
   responseLocations:
   - {fileID: 1268527438}
   - {fileID: 1393544322}
@@ -1501,6 +1505,7 @@ GameObject:
   - component: {fileID: 1285851246}
   - component: {fileID: 1285851245}
   - component: {fileID: 1285851244}
+  - component: {fileID: 1285851250}
   m_Layer: 0
   m_Name: Player (1)
   m_TagString: Player
@@ -1616,6 +1621,7 @@ MonoBehaviour:
     m_Bits: 64
   body: {fileID: 0}
   boxCollider: {fileID: 0}
+  isAirborne: 0
 --- !u!212 &1285851248
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1683,6 +1689,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1285851250
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285851243}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cf97a6c7bef3fd7458c9ff1583dfb788, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1393544322
 GameObject:
   m_ObjectHideFlags: 0

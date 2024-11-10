@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DialogueTestScene.unity
     guid: 54ddcb6134cbe1c4383aa26602739e73
+  - enabled: 1
+    path: Assets/Scenes/EndingStickerScreen.unity
+    guid: b864b37351e954f42806592b1108a17d
+  - enabled: 1
+    path: Assets/Scenes/StickerAlbum.unity
+    guid: 89819bbf4ed72c348b764fb33f0227c7
   m_configObjects: {}
