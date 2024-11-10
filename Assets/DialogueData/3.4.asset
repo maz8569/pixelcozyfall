@@ -18,7 +18,7 @@ MonoBehaviour:
   responses:
   - responseText: The forest looks charming. Let's take a long walk!
     dialogueObject: {fileID: 11400000, guid: e330cbae94b3c6f40823de2add89a565, type: 2}
-    nextLevel: DialogueTestScene
+    nextLevel: 3.1
     isLast: 0
     sticker: {fileID: 0}
     isFailure: 0

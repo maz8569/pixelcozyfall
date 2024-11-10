@@ -30,7 +30,7 @@ MonoBehaviour:
     isFailure: 0
   - responseText: I can't decide... Maybe let's crochet another time.
     dialogueObject: {fileID: 11400000, guid: c7c959b1cd121374d93df1934c75d19d, type: 2}
-    nextLevel: DialogueTestScene2
+    nextLevel: Level1.1
     isLast: 0
     sticker: {fileID: 0}
     isFailure: 1

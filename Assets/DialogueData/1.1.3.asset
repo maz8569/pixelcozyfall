@@ -18,7 +18,7 @@ MonoBehaviour:
   responses:
   - responseText: OH YES!! I love pumpkins and I love pies
     dialogueObject: {fileID: 11400000, guid: 5f3fd36fcfbdac24f9009a1335dbf102, type: 2}
-    nextLevel: DialogueTestScene2
+    nextLevel: Level1.2
     isLast: 0
     sticker: {fileID: 0}
     isFailure: 0

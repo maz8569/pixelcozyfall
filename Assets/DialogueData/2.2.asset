@@ -32,7 +32,7 @@ MonoBehaviour:
     isFailure: 0
   - responseText: Hmm... you know, actually it's kind of cold outside.
     dialogueObject: {fileID: 11400000, guid: e5c2b7ad3165de84c87b97e5a53beaee, type: 2}
-    nextLevel: DialogueTestScene2
+    nextLevel: Level1.2
     isLast: 0
     sticker: {fileID: 0}
     isFailure: 1

@@ -25,7 +25,7 @@ MonoBehaviour:
   - responseText: 'We will need: spaghetti pasta, ground beef, tomato paste, Parmesan
       cheese'
     dialogueObject: {fileID: 11400000, guid: a016f82ccfc0c5642b2cfd54c3ce6366, type: 2}
-    nextLevel: DialogueTestScene
+    nextLevel: Level1.1
     isLast: 0
     sticker: {fileID: 0}
     isFailure: 1

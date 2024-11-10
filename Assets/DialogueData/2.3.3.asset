@@ -18,7 +18,7 @@ MonoBehaviour:
   responses:
   - responseText: Oh yeah! I need a Latte!
     dialogueObject: {fileID: 11400000, guid: 8a138925a92c2fb4c99b8c0e6762e1cc, type: 2}
-    nextLevel: DialogueTestScene
+    nextLevel: Level2.2
     isLast: 0
     sticker: {fileID: 0}
     isFailure: 0

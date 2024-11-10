@@ -33,7 +33,7 @@ MonoBehaviour:
     isFailure: 0
   - responseText: Oh, me too... Maybe we should go somewhere else.
     dialogueObject: {fileID: 11400000, guid: 2c7bcaf10cd3cfc47b68ccc55096956a, type: 2}
-    nextLevel: DialogueTestScene
+    nextLevel: Level1.2
     isLast: 0
     sticker: {fileID: 0}
     isFailure: 1
