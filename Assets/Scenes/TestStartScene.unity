@@ -1493,9 +1493,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1809842797}
-        m_TargetAssemblyTypeName: TestSceneButton, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 1809842799}
+        m_TargetAssemblyTypeName: SceneButton, Assembly-CSharp
+        m_MethodName: LoadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

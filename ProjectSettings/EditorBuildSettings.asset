@@ -23,4 +23,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StickerAlbum.unity
     guid: 89819bbf4ed72c348b764fb33f0227c7
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level1.1.unity
+    guid: 738f9ad8c138c1a4da2ff8c748fd8a69
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level1.2.unity
+    guid: c88c7c47b72a3c242a7715a81af7d313
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level2.1.unity
+    guid: d0f5f87e0be8b65489f9c36a6c3c82c3
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level2.2.unity
+    guid: b6d17408d989b6a459c18d1e19148bbe
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level2.3.unity
+    guid: cea9f80312027de4693ac925adc744b8
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level3.1.unity
+    guid: 8caa52a70fb0dc64da60282c89b1dc02
   m_configObjects: {}
