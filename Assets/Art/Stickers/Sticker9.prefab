@@ -91,7 +91,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLocked: 1
   unlockedSprite: {fileID: -1473835146, guid: 7013d6304c8aada458907bf4d55c4cfd, type: 3}
-  stickerTitle: Fire
+  stickerTitle: Fireplace
   stickerIndex: 8
 --- !u!114 &6241987807019857643
 MonoBehaviour:

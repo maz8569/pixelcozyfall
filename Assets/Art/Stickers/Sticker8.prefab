@@ -91,7 +91,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLocked: 1
   unlockedSprite: {fileID: 489367894, guid: 7013d6304c8aada458907bf4d55c4cfd, type: 3}
-  stickerTitle: Computer
+  stickerTitle: Coding
   stickerIndex: 7
 --- !u!114 &8069050317917349947
 MonoBehaviour:
