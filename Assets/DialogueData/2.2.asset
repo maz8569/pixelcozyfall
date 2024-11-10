@@ -19,11 +19,20 @@ MonoBehaviour:
   responses:
   - responseText: ' Inside - The cafe interior is so cozy!'
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
-    nextLevel: TestStartScene
+    nextLevel: EndingStickerScreen
+    isLast: 1
+    sticker: {fileID: 6924509173100445593, guid: f26b83bad8635e642910ed8b0c3b5743, type: 3}
+    isFailure: 0
   - responseText: Outside - I would like to admire the nature during this colorful
       season.
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
-    nextLevel: TestStartScene
+    nextLevel: EndingStickerScreen
+    isLast: 1
+    sticker: {fileID: 5979196022948926427, guid: e05b7f7605465444d80ab8c8f29e9609, type: 3}
+    isFailure: 0
   - responseText: Hmm... you know, actually it's kind of cold outside.
     dialogueObject: {fileID: 11400000, guid: e5c2b7ad3165de84c87b97e5a53beaee, type: 2}
     nextLevel: DialogueTestScene2
+    isLast: 0
+    sticker: {fileID: 0}
+    isFailure: 1

@@ -8,6 +8,9 @@ public class Response
     [SerializeField] private string responseText;
     [SerializeField] private DialogueObject dialogueObject;
     [SerializeField] public string nextLevel;
+    [SerializeField] public bool isLast;
+    [SerializeField] public GameObject sticker;
+    [SerializeField] public bool isFailure;
 
     public string ResponseText => responseText;
 

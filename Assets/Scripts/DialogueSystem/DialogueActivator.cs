@@ -17,8 +17,15 @@ public class DialogueActivator : MonoBehaviour, IInteractable
         if(other.CompareTag("Player") && other.TryGetComponent(out Player player))
         {
             Debug.Log(response.ResponseText);
-            player.DialogueUI.HoverStart(response.ResponseText);
             player.Interactable = this;
+            if (response.isFailure)
+            {
+                player.Interactable?.Interact(player);
+            }
+            else
+            {
+                player.DialogueUI.HoverStart(response.ResponseText);
+            }
         }
     }
 

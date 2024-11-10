@@ -13,6 +13,7 @@ public class ResponseHandler : MonoBehaviour
     [SerializeField] private GameObject responseObjectTemplate;
 
     [SerializeField] private GameObject[] responseLocations;
+    [SerializeField] private Response failureResponse;
 
     private DialogueUI dialogueUI;
 
@@ -29,9 +30,14 @@ public class ResponseHandler : MonoBehaviour
         int index = 0;
         foreach (Response response in responses)
         {
-            GameObject responseButton = Instantiate(responseObjectTemplate, responseLocations[index].transform);
+            GameObject responseButton;
+            responseButton = Instantiate(responseObjectTemplate, responseLocations[index].transform);
             responseButton.GetComponent<DialogueActivator>().response = response;
             responseButton.SetActive(true);
+            if (response.isFailure)
+            {
+                failureResponse = response;
+            }
             //responseButton.GetComponent<TMP_Text>().text = response.ResponseText;
             //responseButton.GetComponent<Button>().onClick.AddListener(() => OnPickedResponse(response));
 
@@ -62,5 +68,10 @@ public class ResponseHandler : MonoBehaviour
         
         dialogueUI.ShowResponse(response);
         //dialogueUI.ShowDialogue(response.DialogueObject);
+    }
+
+    public void FailureResponse()
+    {
+        OnPickedResponse(failureResponse);
     }
 }

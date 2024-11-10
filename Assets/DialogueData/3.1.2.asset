@@ -19,7 +19,13 @@ MonoBehaviour:
   - responseText: 'Hmm.. NO! Actually we need: chicken stock, tomatoes,  garlic,
       basil, thyme, olive oil, heavy cream'
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
-    nextLevel: TestStartScene
+    nextLevel: EndingStickerScreen
+    isLast: 1
+    sticker: {fileID: 255425608830927184, guid: 90d5f7b75e6af3d4ab030747158dc603, type: 3}
+    isFailure: 0
   - responseText: Yes.. Why do you ask?
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
     nextLevel: TestStartScene
+    isLast: 1
+    sticker: {fileID: 0}
+    isFailure: 1

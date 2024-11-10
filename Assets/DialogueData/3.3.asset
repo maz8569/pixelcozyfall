@@ -18,8 +18,14 @@ MonoBehaviour:
   responses:
   - responseText: 'We will need: egg, milk, cream cheese, butter, flour, cinnamon'
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
-    nextLevel: TestStartScene
+    nextLevel: EndingStickerScreen
+    isLast: 1
+    sticker: {fileID: 1758846136084935095, guid: 772cf3288eb75254ab6ec865a33c01f6, type: 3}
+    isFailure: 0
   - responseText: 'We will need: spaghetti pasta, ground beef, tomato paste, Parmesan
       cheese'
     dialogueObject: {fileID: 11400000, guid: a016f82ccfc0c5642b2cfd54c3ce6366, type: 2}
     nextLevel: DialogueTestScene
+    isLast: 0
+    sticker: {fileID: 0}
+    isFailure: 1

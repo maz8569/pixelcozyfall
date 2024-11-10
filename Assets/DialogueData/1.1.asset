@@ -18,10 +18,19 @@ MonoBehaviour:
   responses:
   - responseText: A fox plush!
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
-    nextLevel: TestStartScene
+    nextLevel: EndingStickerScreen
+    isLast: 1
+    sticker: {fileID: 6942806590786954363, guid: bf80082a9a3818e4d8817815d2781b01, type: 3}
+    isFailure: 0
   - responseText: A long, warm scarf!
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
-    nextLevel: TestStartScene
+    nextLevel: EndingStickerScreen
+    isLast: 1
+    sticker: {fileID: 248133482922105651, guid: ee588e97097464d4ea6d02c9785042fe, type: 3}
+    isFailure: 0
   - responseText: I can't decide... Maybe let's crochet another time.
     dialogueObject: {fileID: 11400000, guid: c7c959b1cd121374d93df1934c75d19d, type: 2}
     nextLevel: DialogueTestScene2
+    isLast: 0
+    sticker: {fileID: 0}
+    isFailure: 1

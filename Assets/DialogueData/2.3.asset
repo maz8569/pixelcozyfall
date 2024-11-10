@@ -20,11 +20,20 @@ MonoBehaviour:
       Forest Glade. If you find him and sing the Song of the Last Forest Leaf he
       gives you a special treasure...
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
-    nextLevel: TestStartScene
+    nextLevel: EndingStickerScreen
+    isLast: 1
+    sticker: {fileID: 6000163166825803472, guid: b3d586d1c57632d498bd9b8ee31e5874, type: 3}
+    isFailure: 0
   - responseText: I heard that there is a beautiful scenery! I would like to make
       a photo for the Squirrelstagram.
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
-    nextLevel: TestStartScene
+    nextLevel: EndingStickerScreen
+    isLast: 1
+    sticker: {fileID: 8677885404575026819, guid: 9e55d8cfa3275e746b466827ca4ed441, type: 3}
+    isFailure: 0
   - responseText: Oh, me too... Maybe we should go somewhere else.
     dialogueObject: {fileID: 11400000, guid: 2c7bcaf10cd3cfc47b68ccc55096956a, type: 2}
     nextLevel: DialogueTestScene
+    isLast: 0
+    sticker: {fileID: 0}
+    isFailure: 1

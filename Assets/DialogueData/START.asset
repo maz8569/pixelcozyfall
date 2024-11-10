@@ -19,12 +19,16 @@ MonoBehaviour:
   - responseText: Yes... I truly enjoy cozy activities at home during autumn.
     dialogueObject: {fileID: 11400000, guid: 66c0825b5625c204790e6ae11e61ea99, type: 2}
     nextLevel: DialogueTestScene2
+    isFailure: 0
   - responseText: The forest looks charming. Let's take a long walk!
     dialogueObject: {fileID: 11400000, guid: e330cbae94b3c6f40823de2add89a565, type: 2}
     nextLevel: DialogueTestScene2
+    isFailure: 0
   - responseText: I'd love to try out some new cozy recipes. Would you like to join?
     dialogueObject: {fileID: 11400000, guid: 58e45306acf5421479b99bce658a3efa, type: 2}
     nextLevel: DialogueTestScene2
+    isFailure: 0
   - responseText: I don't like it at all.
     dialogueObject: {fileID: 11400000, guid: c0a2b530ad1aebe4c9fa32fc968b63c8, type: 2}
     nextLevel: DialogueTestScene2
+    isFailure: 1
