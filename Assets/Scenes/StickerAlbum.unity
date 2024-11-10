@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: isLocked
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6744553882380493972, guid: bf80082a9a3818e4d8817815d2781b01, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -834412609, guid: e73b4fa69f6670f4582ea95007fbf7ba, type: 3}
     - target: {fileID: 6942806590786954363, guid: bf80082a9a3818e4d8817815d2781b01, type: 3}
       propertyPath: m_Name
       value: Sticker5
