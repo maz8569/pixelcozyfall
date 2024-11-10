@@ -119,6 +119,18 @@ public class DialogueUI : MonoBehaviour
     {
         GlobalVariables.dialogueIndex += 1;
         GlobalVariables.currentDialogueObject = response.DialogueObject;
+        if(response.isLast && !response.isFailure) 
+        {
+            GlobalVariables.responseSticker = response.sticker;
+            GlobalVariables.responseStickerIndex = response.sticker.GetComponent<Sticker>().stickerIndex;
+            response.sticker.GetComponent<Sticker>().unlock();
+            GlobalVariables.changeLocked(GlobalVariables.responseStickerIndex, false);
+            GlobalVariables.responseIsFailure = false;
+        }
+        if(response.isFailure)
+        {
+            GlobalVariables.responseIsFailure = true;
+        }
         Debug.Log(response.nextLevel);
         SceneManager.LoadScene(response.nextLevel);
     }
