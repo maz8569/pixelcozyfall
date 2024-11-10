@@ -91,7 +91,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLocked: 1
   unlockedSprite: {fileID: -1955968244, guid: 7013d6304c8aada458907bf4d55c4cfd, type: 3}
-  stickerTitle: Photo
+  stickerTitle: Camera
   stickerIndex: 1
 --- !u!114 &5055941309010239018
 MonoBehaviour:

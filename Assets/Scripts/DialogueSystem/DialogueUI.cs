@@ -55,9 +55,9 @@ public class DialogueUI : MonoBehaviour
         textLabelB.text = text;
         Image image = dialogueBoxPlayer.transform.GetChild(0).GetComponent<Image>();
         var tempColor = image.color;
-        tempColor.a = 0.5f;
+        tempColor.a = 0.75f;
         image.color = tempColor;
-        dialogueBoxPlayer.transform.GetChild(1).GetComponent<TMP_Text>().color = new Color(0, 0, 0, 0.5f);
+        dialogueBoxPlayer.transform.GetChild(1).GetComponent<TMP_Text>().color = new Color(0, 0, 0, 0.75f);
     }
 
     public void HoverEnd()
