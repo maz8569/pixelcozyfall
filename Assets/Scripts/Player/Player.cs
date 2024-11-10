@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -14,9 +15,15 @@ public class Player : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    private Camera camera;
+
+    bool failed = false;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        camera = FindObjectOfType<Camera>();
+
     }
 
     private void Update()
@@ -28,6 +35,20 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             Interactable?.Interact(this);
+        }
+
+        if (transform.position.y >= 0)
+        {
+            camera.gameObject.transform.position = transform.position + new Vector3(0, 0, -10);
+        }
+
+        if (transform.position.y < -8)
+        {
+            if (!failed)
+            {
+                DialogueUI.responseHandler.FailureResponse();
+                failed = true;
+            }
         }
     }
 }

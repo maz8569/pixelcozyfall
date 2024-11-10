@@ -19,6 +19,8 @@ MonoBehaviour:
   - responseText: Oh yeah! I need a Latte!
     dialogueObject: {fileID: 11400000, guid: 8a138925a92c2fb4c99b8c0e6762e1cc, type: 2}
     nextLevel: DialogueTestScene
+    isFailure: 0
   - responseText: I don't really like coffee.
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
     nextLevel: TestStartScene
+    isFailure: 1

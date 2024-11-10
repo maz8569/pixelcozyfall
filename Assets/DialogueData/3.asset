@@ -20,12 +20,16 @@ MonoBehaviour:
       family for generations.
     dialogueObject: {fileID: 11400000, guid: 75d2a423c479ff04a9a6d325f53f4a8b, type: 2}
     nextLevel: DialogueTestScene
+    isFailure: 0
   - responseText: Pumpkin Pie - one of the classic autumn baked goods.
     dialogueObject: {fileID: 11400000, guid: 5f3fd36fcfbdac24f9009a1335dbf102, type: 2}
     nextLevel: DialogueTestScene
+    isFailure: 0
   - responseText: Cinnamon Rolls - so yummy!
     dialogueObject: {fileID: 11400000, guid: 152a729bc9ffe0a4fbddc126e12143d7, type: 2}
     nextLevel: DialogueTestScene
+    isFailure: 0
   - responseText: Oh no.. I forgot that I have lost my cookbook.
     dialogueObject: {fileID: 11400000, guid: 18a2d936d092f7548ac59a671b9f1923, type: 2}
     nextLevel: DialogueTestScene
+    isFailure: 1

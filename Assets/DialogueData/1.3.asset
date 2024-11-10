@@ -19,9 +19,12 @@ MonoBehaviour:
   - responseText: A cozy farming simulator about racoons!
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
     nextLevel: TestStartScene
+    isFailure: 0
   - responseText: Point&click adventure with turned based combat in steampunk setting!
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
     nextLevel: TestStartScene
+    isFailure: 0
   - responseText: Oh... I have played ALL THE GAMES.
     dialogueObject: {fileID: 11400000, guid: e5c2b7ad3165de84c87b97e5a53beaee, type: 2}
     nextLevel: DialogueTestScene
+    isFailure: 1

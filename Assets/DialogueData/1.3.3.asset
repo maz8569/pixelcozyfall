@@ -19,6 +19,8 @@ MonoBehaviour:
   - responseText: CROCHET?! Oh yes, let's do this!
     dialogueObject: {fileID: 11400000, guid: e7cdbfcf180c1ae4796b5c45979c1dfe, type: 2}
     nextLevel: DialogueTestScene
+    isFailure: 0
   - responseText: No, sorry.. DIY is not my cup of tea.
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
     nextLevel: TestStartScene
+    isFailure: 1

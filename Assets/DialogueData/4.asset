@@ -20,6 +20,8 @@ MonoBehaviour:
   - responseText: Okay, I think I can try...
     dialogueObject: {fileID: 11400000, guid: d4f14176bfc4a1f4ba87cd6d5cbbdd04, type: 2}
     nextLevel: DialogueTestScene
+    isFailure: 0
   - responseText: 'No, sorry, but that''s not my thing. I''ll wait until spring. '
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
     nextLevel: TestStartScene
+    isFailure: 1

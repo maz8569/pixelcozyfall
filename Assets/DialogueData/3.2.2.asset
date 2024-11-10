@@ -20,6 +20,8 @@ MonoBehaviour:
       cloves'
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
     nextLevel: TestStartScene
+    isFailure: 0
   - responseText: Yes.. Why do you ask?
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
     nextLevel: TestStartScene
+    isFailure: 1
