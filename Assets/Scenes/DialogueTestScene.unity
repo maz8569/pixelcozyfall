@@ -1681,8 +1681,8 @@ MonoBehaviour:
 
     New Text'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 16506489faeed554195a49ef63845705, type: 2}
+  m_sharedMaterial: {fileID: 4993438344305159145, guid: 16506489faeed554195a49ef63845705, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1858,6 +1858,8 @@ MonoBehaviour:
     responseText: 
     dialogueObject: {fileID: 0}
     nextLevel: 
+    isLast: 0
+    sticker: {fileID: 0}
     isFailure: 0
 --- !u!61 &980336298
 BoxCollider2D:
@@ -2066,6 +2068,8 @@ MonoBehaviour:
     responseText: 
     dialogueObject: {fileID: 0}
     nextLevel: 
+    isLast: 0
+    sticker: {fileID: 0}
     isFailure: 0
 --- !u!1 &1170035923
 GameObject:
@@ -3062,8 +3066,8 @@ MonoBehaviour:
 
     New Text'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 16506489faeed554195a49ef63845705, type: 2}
+  m_sharedMaterial: {fileID: 4993438344305159145, guid: 16506489faeed554195a49ef63845705, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
