@@ -1448,7 +1448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de4a1b8992c1b2f4d9cd019249803c35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: DialogueTestScene
+  scene: Level3.1
 --- !u!114 &1809842800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1493,9 +1493,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1809842799}
+      - m_Target: {fileID: 1809842797}
         m_TargetAssemblyTypeName: TestSceneButton, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
