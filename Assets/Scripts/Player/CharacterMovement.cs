@@ -22,11 +22,15 @@ public class CharacterMovement : MonoBehaviour
     private float gravity = -9.8f;
     private float initialJumpVelocity = 0f;
     private Vector2 movementInput;
+    private Animator animator;
+    private SpriteRenderer sprite;
 
     private void Awake()
     {
         inputActions = new PlayerControls();
         boxCollider = GetComponent<BoxCollider2D>();
+        animator = GetComponent<Animator>();
+        sprite = GetComponent<SpriteRenderer>();
 
         inputActions.Player.Movement.performed += OnMovement;
         inputActions.Player.Movement.canceled += OnMovement;
@@ -59,6 +63,9 @@ public class CharacterMovement : MonoBehaviour
     private void OnMovement(InputAction.CallbackContext context)
     {
         movementInput = context.ReadValue<Vector2>();
+        animator.SetBool("IsRunning", movementInput.x != 0);
+        if(movementInput.x > 0) sprite.flipX = false;
+        if(movementInput.x < 0) sprite.flipX = true;
     }
 
     private void HandleGravity()
