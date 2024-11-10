@@ -11,6 +11,7 @@ public class StickerAlbum : MonoBehaviour
     {
         foreach (GameObject sticker in stickers)
         {
+            Debug.Log(GlobalVariables.listLocked[sticker.GetComponent<Sticker>().stickerIndex]);
             if(!GlobalVariables.listLocked[sticker.GetComponent<Sticker>().stickerIndex])
             {
                 sticker.GetComponent<Sticker>().unlock();

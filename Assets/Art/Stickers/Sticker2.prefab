@@ -91,6 +91,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLocked: 1
   unlockedSprite: {fileID: -399708174, guid: 7013d6304c8aada458907bf4d55c4cfd, type: 3}
+  lockedSprite: {fileID: 1560859184, guid: e73b4fa69f6670f4582ea95007fbf7ba, type: 3}
   stickerTitle: Pumpkin Pie
   stickerIndex: 1
 --- !u!114 &1741198090528828578
