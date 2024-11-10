@@ -11,6 +11,7 @@ public class ResponseHandler : MonoBehaviour
     [SerializeField] private RectTransform responseContainer;
 
     [SerializeField] private GameObject responseObjectTemplate;
+    [SerializeField] private GameObject responseObjectFailureTemplate;
 
     [SerializeField] private GameObject[] responseLocations;
 
@@ -29,7 +30,12 @@ public class ResponseHandler : MonoBehaviour
         int index = 0;
         foreach (Response response in responses)
         {
-            GameObject responseButton = Instantiate(responseObjectTemplate, responseLocations[index].transform);
+            GameObject responseButton;
+            if (response.isFailure)
+            {
+                responseButton = Instantiate(responseObjectFailureTemplate, responseLocations[index].transform);
+            }
+            responseButton = Instantiate(responseObjectTemplate, responseLocations[index].transform);
             responseButton.GetComponent<DialogueActivator>().response = response;
             responseButton.SetActive(true);
             //responseButton.GetComponent<TMP_Text>().text = response.ResponseText;

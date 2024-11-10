@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
         //Vector2 input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
         //rb.MovePosition(rb.position + input.normalized * (moveSpeed * Time.fixedDeltaTime));
-    
+
         if (Input.GetKeyDown(KeyCode.E))
         {
             Interactable?.Interact(this);
