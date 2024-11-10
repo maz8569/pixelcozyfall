@@ -17,8 +17,7 @@ MonoBehaviour:
   isPlayer: 
   responses:
   - responseText: I heard that every autumn the Old Traveler visit the Mysterious
-      Forest Glade. If you find him and sing the Song of the Last Forest Leaf he
-      gives you a special treasure...
+      Forest Glade. If you find him, he gives you a special treasure...
     dialogueObject: {fileID: 11400000, guid: f236e5f3c27d1144ca9054079d80616d, type: 2}
     nextLevel: EndingStickerScreen
     isLast: 1
