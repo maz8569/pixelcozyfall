@@ -2317,6 +2317,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8458297895798022744, guid: 9e55d8cfa3275e746b466827ca4ed441, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -511695500, guid: e73b4fa69f6670f4582ea95007fbf7ba, type: 3}
     - target: {fileID: 8677885404575026819, guid: 9e55d8cfa3275e746b466827ca4ed441, type: 3}
       propertyPath: m_Name
       value: Sticker12

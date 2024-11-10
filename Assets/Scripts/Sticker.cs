@@ -7,6 +7,7 @@ public class Sticker : MonoBehaviour
 {
     [SerializeField] private bool isLocked = true;
     [SerializeField] private Sprite unlockedSprite;
+    [SerializeField] private Sprite lockedSprite;
     [SerializeField] public string stickerTitle;
     [SerializeField] public int stickerIndex;
 
@@ -16,12 +17,22 @@ public class Sticker : MonoBehaviour
         {
             unlock();
         }
+        else if(isLocked)
+        {
+            lockSticker();
+        }
     }
 
     public void unlock()
     {
         isLocked = false;
         GetComponent<Image>().sprite = unlockedSprite; 
+    }
+
+    public void lockSticker()
+    {
+        isLocked = true;
+        GetComponent<Image>().sprite = lockedSprite; 
     }
 
     public void pointerEnter()
