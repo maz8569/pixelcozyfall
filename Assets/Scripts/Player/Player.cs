@@ -37,9 +37,16 @@ public class Player : MonoBehaviour
             Interactable?.Interact(this);
         }
 
-        if (transform.position.y >= 0)
+        if (!failed)
         {
-            camera.gameObject.transform.position = transform.position + new Vector3(0, 0, -10);
+            if (transform.position.y >= 0)
+            {
+                camera.gameObject.transform.position = transform.position + new Vector3(0, 0, -10);
+            }
+            else
+            {
+                camera.gameObject.transform.position = new Vector3(transform.position.x, camera.gameObject.transform.position.y, -10);
+            }
         }
 
         if (transform.position.y < -8)
